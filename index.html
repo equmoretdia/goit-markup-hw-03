@@ -23,30 +23,36 @@
     <header class="header">
       <div class="header-container container">
         <nav class="nav-container">
-          <a class="logo link" href="./index.html"
+          <a class="header-link logo link" href="./index.html"
             >Web<span class="nav-logo-span">Studio</span></a
           >
           <ul class="nav-menu-container list">
             <li>
-              <a class="nav-menu link" href="./index.html">Studio</a>
+              <a class="header-link nav-menu link" href="./index.html"
+                >Studio</a
+              >
             </li>
             <li>
-              <a class="nav-menu link" href="./portfolio.html">Portfolio</a>
+              <a class="header-link nav-menu link" href="./portfolio.html"
+                >Portfolio</a
+              >
             </li>
             <li>
-              <a class="nav-menu link" href="">Contacts</a>
+              <a class="header-link nav-menu link" href="">Contacts</a>
             </li>
           </ul>
         </nav>
         <address class="address-style">
           <ul class="address-container list">
             <li>
-              <a class="address-text link" href="mailto:info@devstudio.com"
+              <a
+                class="header-link address-text link"
+                href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
             <li>
-              <a class="address-text link" href="tel:+110001111111"
+              <a class="header-link address-text link" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
             </li>
@@ -57,7 +63,7 @@
     <main>
       <!--Section 1. Hero = Main banner-->
       <section class="hero">
-        <div class="hero-container container">
+        <div class="container">
           <h1 class="hero-header header-one">
             Effective Solutions for Your Business
           </h1>
@@ -67,34 +73,34 @@
         </div>
       </section>
       <!--Section 2. About webstudio-->
-      <section>
-        <div class="webstudio-container container">
-          <h2 hidden class="header-two">Why us?</h2>
-          <ul class="webstudio-flex-container list">
-            <li class="card">
+      <section class="section-beta">
+        <div class="container">
+          <h2 class="visually-hidden header-two">Why us?</h2>
+          <ul class="webstudio-container list">
+            <li class="webstudio-container-item card">
               <h3 class="header-three">Strategy</h3>
-              <p class="text">
+              <p>
                 Our goal is to identify the business problem to walk away with
                 the perfect and creative solution.
               </p>
             </li>
-            <li class="card">
+            <li class="webstudio-container-item card">
               <h3 class="header-three">Punctuality</h3>
-              <p class="text">
+              <p>
                 Bring the key message to the brand's audience for the best price
                 within the shortest possible time.
               </p>
             </li>
-            <li class="card">
+            <li class="webstudio-container-item card">
               <h3 class="header-three">Diligence</h3>
-              <p class="text">
+              <p>
                 Research and confirm brands that present the strongest digital
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <li class="card">
+            <li class="webstudio-container-item card">
               <h3 class="header-three">Technologies</h3>
-              <p class="text">
+              <p>
                 Design practice focused on digital experiences. We bring forth a
                 deep passion for problem-solving.
               </p>
@@ -103,10 +109,10 @@
         </div>
       </section>
       <!--Section 3. About portfolio-->
-      <section>
-        <div class="portfolio-container container">
+      <section class="section-alfa">
+        <div class="container">
           <h2 class="portfolio-header header-two">What are we doing</h2>
-          <ul class="portfolio-flex-container list">
+          <ul class="portfolio-container list">
             <li class="portfolio-card card">
               <img
                 class="photo"
@@ -132,10 +138,10 @@
         </div>
       </section>
       <!--Section 4. About team-->
-      <section class="team">
-        <div class="team-container container">
+      <section class="team section-beta">
+        <div class="container">
           <h2 class="team-header header-two">Our Team</h2>
-          <ul class="team-flex-container list">
+          <ul class="team-container list">
             <li class="team-card card">
               <img
                 class="photo"
@@ -144,7 +150,7 @@
               />
               <div class="team-card-content">
                 <h3 class="header-three">Mark Guerrero</h3>
-                <p>Product Designer</p>
+                <p class="team-text">Product Designer</p>
               </div>
             </li>
             <li class="team-card card">
@@ -155,7 +161,7 @@
               />
               <div class="team-card-content">
                 <h3 class="header-three">Tom Ford</h3>
-                <p>Frontend Developer</p>
+                <p class="team-text">Frontend Developer</p>
               </div>
             </li>
             <li class="team-card card">
@@ -166,7 +172,7 @@
               />
               <div class="team-card-content">
                 <h3 class="header-three">Camila Garcia</h3>
-                <p>Marketing</p>
+                <p class="team-text">Marketing</p>
               </div>
             </li>
             <li class="team-card card">
@@ -177,7 +183,7 @@
               />
               <div class="team-card-content">
                 <h3 class="header-three">Daniel Wilson</h3>
-                <p>UI Designer</p>
+                <p class="team-text">UI Designer</p>
               </div>
             </li>
           </ul>
@@ -186,16 +192,14 @@
     </main>
     <!--Footer-->
     <footer class="footer">
-      <div class="footer-container container">
-        <div class="footer-inner-container">
-          <a class="logo link" href="./index.html"
-            >Web<span class="footer-text">Studio</span></a
-          >
-          <p class="footer-text">
-            Increase the flow of customers and sales for your business with
-            digital marketing & growth solutions.
-          </p>
-        </div>
+      <div class="container">
+        <a class="footer-link logo link" href="./index.html"
+          >Web<span class="footer-text">Studio</span></a
+        >
+        <p class="footer-paragraph footer-text">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
       </div>
     </footer>
   </body>
